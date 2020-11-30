@@ -1,3 +1,10 @@
+/*
+parsers: # array
+  - url: https://xxx.yaml
+    file: 'C:\Users\xxx\.config\clash\profiles\myparser.js'
+    */
+
+// Clash for Windows parser
 module.exports.parse = async (raw, { axios, yaml, notify, console }, { name, url, interval, selected }) => {
     const obj = yaml.parse(raw);
     const orig = ['香港','台湾','日本','韩国', //0~3
