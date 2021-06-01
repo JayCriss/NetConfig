@@ -30,15 +30,15 @@ secret: ''
 
 proxies:
   - {"name":"AGA台湾|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
-  - {"name":"AGA香港|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"CGA香港|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
   - {"name":"Asia|负载均衡|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
-  - {"name":"原生|加拿大|3倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"RR原生|加拿大|3倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
   - {"name":"原生|英国|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
-  - {"name":"原生|马来西亚|3倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"JGA原生|马来西亚|3倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
   - {"name":"日本01|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
-  - {"name":"狮城01|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"DGA狮城01|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
   - {"name":"苏联|2倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
-  - {"name":"新加坡|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
+  - {"name":"KGA新加坡|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
   - {"name":"韩国|0.1倍率","type":"vmess","server":"www.baidu.com","port":404,"uuid":"52632aab-cbb1-3f45-5263-0deab8965234","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/video","ws-headers":{"Host":"www.baidu.com"}}
 proxy-groups:
 -
@@ -46,14 +46,15 @@ proxy-groups:
   type: select
   proxies:
     - AGA台湾|0.1倍率
-    - AGA香港|0.1倍率
+    - CGA香港|0.1倍率
     - Asia|负载均衡|2倍率
-    - 原生|加拿大|3倍率
+    - RR原生|加拿大|3倍率
     - 原生|英国|2倍率
-    - 原生|马来西亚|3倍率
+    - JGA原生|马来西亚|3倍率
     - 日本01|2倍率
-    - 狮城01|2倍率
-    - 新加坡|0.1倍率
+    - DGA狮城01|2倍率
+    - 苏联|2倍率
+    - KGA新加坡|0.1倍率
     - 韩国|0.1倍率
 -
   name: Domestic
